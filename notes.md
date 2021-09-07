@@ -1,0 +1,1 @@
+Place for all my notes when starting a project !!!

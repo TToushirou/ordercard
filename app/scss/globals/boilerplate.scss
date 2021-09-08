@@ -1,8 +1,13 @@
+// Add this section of code to all addition component scss pages 
+@use '../util/' as *;
+
 // Basic Page Layout styles 
 
 html {
     font-size: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   
   *,
@@ -15,7 +20,13 @@ html {
     margin: 0;
     padding: 0;
     font: var(--font);
+    font-size: rem(16);
     min-height: 150vh;
+
+    @include breakpoint-down(xsmall) {
+      background: var(--vrypaleblue) url(..//images/pattern-background-mobile.svg) no-repeat;
+    }
+      background: url(..//images/pattern-background-desktop.svg) no-repeat;
   }
   
 

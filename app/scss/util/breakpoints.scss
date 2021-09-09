@@ -2,13 +2,14 @@
 // Mixen MediaQ Min - Max
 
 
-// 425, 640px, 1150px, 1400px
+// 425px, 640px, 1024px, 1150px, 1400px
 $breakpoints-up: (
 	'xsmall': '23.4375em',
 	'small': '25.4375em',
 	'medium': '40em',
-	'large': '71.875em',
-	'xlarge': '87.5em',
+	'large': '55em',
+	'xlarge': '71.875em',
+	'xxlarge': '87.5em',
 );
 
 // 639px, 1149px, 1399px

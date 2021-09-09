@@ -7,6 +7,10 @@ html {
     font-size: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
+
+    @include breakpoint(medium) {
+      overflow-y: hidden;
+  }
   }
   
   *,
